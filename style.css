@@ -1,0 +1,35 @@
+h1{
+    color:brown;
+}
+p,h2{
+    color:plum;
+    text-align: center;  
+}
+*{
+    border:solid;
+}
+
+.header{
+    background-color: rgb(0, 255, 191);
+    display:flex;
+    justify-content: center;
+}
+.grid{
+    border: 2-px solid black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+.me{
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-around;
+
+}
+body{
+    background-color: #808080;
+}
